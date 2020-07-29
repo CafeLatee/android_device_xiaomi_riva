@@ -145,7 +145,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.vendor.qti.sys.fw.bg_apps_limit=60 \
-    vendor.perf.gestureflingboost.enable=true
+    vendor.perf.gestureflingboost.enable=true \
+    ro.vendor.qti.sys.fw.bservice_enable=true \
+    ro.vendor.qti.am.reschedule_service=true
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
